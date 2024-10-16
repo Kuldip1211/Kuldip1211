@@ -20,9 +20,6 @@ I'm a **MERN stack developer** currently in my 7th semester, passionate about bu
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
 
--  **State Management**: ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
--  **Tools**: [Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
 ## 📫 Contact Me
 
 - **Email**: kuldeepchudasama6999@gmail.com
