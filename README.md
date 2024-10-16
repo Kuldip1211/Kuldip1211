@@ -26,7 +26,7 @@ I'm a **MERN stack developer** currently in my 7th semester, passionate about bu
 ## 📫 Contact Me
 
 - **Email**: kulldeepchudasama6999@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](linkedin.com/in/kuldeep-chudasama-1759b1256/)
+- **LinkedIn**: [Your LinkedIn Profile]([linkedin.com/in/kuldeep-chudasama-1759b1256/](https://linkedin.com/in/kuldeep-chudasama-1759b1256/))
 
 
 Feel free to reach out to me if you're interested in collaborating or discussing technology!
