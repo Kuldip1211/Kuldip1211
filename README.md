@@ -23,7 +23,7 @@ I'm a **MERN stack developer** my passionate about building scalable web applica
 ## 📫 Contact Me
 
 - **Email**: kuldeepchudasama6999@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](linkedin.com/in/kuldeep-chudasama-1759b1256/](https://linkedin.com/in/kuldeep-chudasama-1759b1256/))
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/kuldeep-chudasama-1759b1256/)
 
 
 Feel free to reach out to me if you're interested in collaborating or discussing technology!
