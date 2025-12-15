@@ -1,6 +1,6 @@
 # 👋 Hello! I'm Kuldeep
 
-I'm a **MERN stack developer** currently in my 7th semester, passionate about building scalable web applications and improving user experiences through clean and efficient code.
+I'm a **MERN stack developer** my passionate about building scalable web applications and improving user experiences through clean and efficient code.
 
 ## 💻 Technologies & Tools
 
