@@ -1,0 +1,208 @@
+<svg viewBox="0 0 860 400" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070b10"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#00c8d7"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>A
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d2030"/>
+      <stop offset="100%" stop-color="#071018"/>
+    </linearGradient>
+    <filter id="softglow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.7" fill="rgba(0,245,255,0.07)"/>
+    </pattern>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="400" fill="url(#bg)"/>
+  <rect width="860" height="400" fill="url(#dots)"/>
+
+  <!-- subtle ambient glows -->
+  <ellipse cx="160" cy="200" rx="200" ry="140" fill="rgba(0,245,255,0.04)"/>
+  <ellipse cx="700" cy="200" rx="180" ry="130" fill="rgba(100,180,255,0.03)"/>
+
+  <!-- ═══ LEFT: MONITOR / CODE EDITOR ═══ -->
+
+  <!-- monitor stand -->
+  <rect x="48" y="328" width="10" height="30" rx="2" fill="#1c2333"/>
+  <rect x="33" y="355" width="40" height="6" rx="3" fill="#1c2333"/>
+  <!-- monitor outer shell -->
+  <rect x="28" y="60" width="360" height="270" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <!-- screen bezel -->
+  <rect x="36" y="68" width="344" height="252" rx="10" fill="url(#screenGrad)" stroke="#21262d" stroke-width="1"/>
+  <!-- top bar dots (traffic lights) -->
+  <circle cx="54" cy="83" r="5" fill="#ff5f57"/>
+  <circle cx="70" cy="83" r="5" fill="#febc2e"/>
+  <circle cx="86" cy="83" r="5" fill="#28c840"/>
+  <!-- top bar label -->
+  <text x="210" y="87" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#484f58">kuldeep.js — VS Code</text>
+
+  <!-- line numbers -->
+  <g font-family="'Courier New',monospace" font-size="11" fill="#484f58">
+    <text x="50" y="115">1</text><text x="50" y="132">2</text><text x="50" y="149">3</text>
+    <text x="50" y="166">4</text><text x="50" y="183">5</text><text x="50" y="200">6</text>
+    <text x="50" y="217">7</text><text x="50" y="234">8</text><text x="50" y="251">9</text>
+    <text x="44" y="268">10</text><text x="44" y="285">11</text><text x="44" y="302">12</text>
+  </g>
+
+  <!-- code content -->
+  <g font-family="'Courier New',monospace" font-size="11.5">
+    <!-- line 1: const -->
+    <text x="68" y="115" fill="#ff7b72">const </text>
+    <text x="106" y="115" fill="#79c0ff">kuldeep</text>
+    <text x="155" y="115" fill="#c9d1d9"> = {</text>
+
+    <!-- line 2 -->
+    <text x="68" y="132" fill="#8b949e">  </text>
+    <text x="78" y="132" fill="#79c0ff">name</text>
+    <text x="102" y="132" fill="#c9d1d9">:    </text>
+    <text x="124" y="132" fill="#a5d6ff">"Kuldeep Chudasama"</text>
+    <text x="278" y="132" fill="#c9d1d9">,</text>
+
+    <!-- line 3 -->
+    <text x="78" y="149" fill="#79c0ff">role</text>
+    <text x="102" y="149" fill="#c9d1d9">:    </text>
+    <text x="124" y="149" fill="#a5d6ff">"Full Stack Dev"</text>
+    <text x="236" y="149" fill="#c9d1d9">,</text>
+
+    <!-- line 4 -->
+    <text x="78" y="166" fill="#79c0ff">stack</text>
+    <text x="108" y="166" fill="#c9d1d9">:   [</text>
+    <text x="136" y="166" fill="#a5d6ff">"MERN"</text>
+    <text x="178" y="166" fill="#c9d1d9">, </text>
+    <text x="186" y="166" fill="#a5d6ff">"PHP"</text>
+    <text x="216" y="166" fill="#c9d1d9">, </text>
+    <text x="224" y="166" fill="#a5d6ff">"CMS"</text>
+    <text x="256" y="166" fill="#c9d1d9">],</text>
+
+    <!-- line 5 -->
+    <text x="78" y="183" fill="#79c0ff">status</text>
+    <text x="114" y="183" fill="#c9d1d9">:  </text>
+    <text x="128" y="183" fill="#a5d6ff">"🟢 Available"</text>
+    <text x="236" y="183" fill="#c9d1d9">,</text>
+
+    <!-- line 6 -->
+    <text x="78" y="200" fill="#79c0ff">location</text>
+    <text x="122" y="200" fill="#c9d1d9">: </text>
+    <text x="134" y="200" fill="#a5d6ff">"India 🇮🇳"</text>
+    <text x="210" y="200" fill="#c9d1d9">,</text>
+
+    <!-- line 7 -->
+    <text x="78" y="217" fill="#79c0ff">perfect</text>
+    <text x="120" y="217" fill="#c9d1d9">: </text>
+    <text x="130" y="217" fill="#ff7b72">false</text>
+    <text x="160" y="217" fill="#c9d1d9">,   </text>
+    <text x="186" y="217" fill="#484f58">// honest</text>
+
+    <!-- line 8 -->
+    <text x="78" y="234" fill="#79c0ff">improving</text>
+    <text x="134" y="234" fill="#c9d1d9">: </text>
+    <text x="146" y="234" fill="#3fb950">true</text>
+    <text x="170" y="234" fill="#c9d1d9">,</text>
+    <text x="186" y="234" fill="#484f58">   // always</text>
+
+    <!-- line 9 -->
+    <text x="78" y="251" fill="#79c0ff">coffee</text>
+    <text x="114" y="251" fill="#c9d1d9">:  </text>
+    <text x="128" y="251" fill="#a5d6ff">"yes please ☕"</text>
+    <text x="246" y="251" fill="#c9d1d9">,</text>
+
+    <!-- line 10 -->
+    <text x="78" y="268" fill="#79c0ff">giveUp</text>
+    <text x="116" y="268" fill="#c9d1d9">:  () =&gt; </text>
+    <text x="170" y="268" fill="#ff7b72">never</text>
+    <text x="200" y="268" fill="#484f58">, // undefined</text>
+
+    <!-- line 11 -->
+    <text x="68" y="285" fill="#c9d1d9">};</text>
+
+    <!-- line 12: cursor blink line -->
+    <text x="68" y="302" fill="#00f5ff">▋</text>
+  </g>
+
+  <!-- ═══ RIGHT: HERO TEXT ═══ -->
+
+  <!-- big name -->
+  <text x="470" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800" fill="url(#nameGrad)" filter="url(#softglow)">Kuldeep</text>
+  <text x="470" y="196" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800" fill="url(#nameGrad)" filter="url(#softglow)">Chudasama</text>
+
+  <!-- cyan underline accent -->
+  <rect x="470" y="208" width="340" height="2" rx="1" fill="url(#cyanGrad)" opacity="0.7"/>
+
+  <!-- tagline -->
+  <text x="470" y="236" font-family="'Courier New',monospace" font-size="13" fill="#8b949e" letter-spacing="2">FULL STACK  ·  MERN  ·  CMS  ·  THEME DEV</text>
+
+  <!-- tags row -->
+  <!-- tag: WordPress -->
+  <rect x="470" y="252" width="86" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="513" y="267" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#00f5ff">WordPress</text>
+
+  <!-- tag: Shopify -->
+  <rect x="562" y="252" width="66" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="595" y="267" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#3fb950">Shopify</text>
+
+  <!-- tag: Joomla -->
+  <rect x="634" y="252" width="60" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="664" y="267" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#f0b429">Joomla</text>
+
+  <!-- tag: Moodle -->
+  <rect x="700" y="252" width="62" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="731" y="267" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#ff7b72">Moodle</text>
+
+  <!-- tag: React -->
+  <rect x="470" y="280" width="55" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="497" y="295" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#61dafb">React</text>
+
+  <!-- tag: Node.js -->
+  <rect x="531" y="280" width="64" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="563" y="295" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#3fb950">Node.js</text>
+
+  <!-- tag: MongoDB -->
+  <rect x="601" y="280" width="72" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="637" y="295" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#47a248">MongoDB</text>
+
+  <!-- tag: PHP -->
+  <rect x="679" y="280" width="44" height="22" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="701" y="295" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#a78bfa">PHP</text>
+
+  <!-- stats row -->
+  <g font-family="'Courier New',monospace">
+    <!-- stat 1 -->
+    <text x="470" y="340" font-size="26" font-weight="700" fill="#00f5ff">3+</text>
+    <text x="470" y="356" font-size="9" fill="#8b949e" letter-spacing="1">YRS EXP</text>
+    <!-- divider -->
+    <line x1="532" y1="322" x2="532" y2="362" stroke="#21262d" stroke-width="1"/>
+    <!-- stat 2 -->
+    <text x="548" y="340" font-size="26" font-weight="700" fill="#3fb950">50+</text>
+    <text x="548" y="356" font-size="9" fill="#8b949e" letter-spacing="1">PROJECTS</text>
+    <!-- divider -->
+    <line x1="618" y1="322" x2="618" y2="362" stroke="#21262d" stroke-width="1"/>
+    <!-- stat 3 -->
+    <text x="634" y="340" font-size="26" font-weight="700" fill="#f0b429">10+</text>
+    <text x="634" y="356" font-size="9" fill="#8b949e" letter-spacing="1">CMS BUILDS</text>
+    <!-- divider -->
+    <line x1="712" y1="322" x2="712" y2="362" stroke="#21262d" stroke-width="1"/>
+    <!-- stat 4 -->
+    <text x="728" y="340" font-size="26" font-weight="700" fill="#ff7b72">∞</text>
+    <text x="728" y="356" font-size="9" fill="#8b949e" letter-spacing="1">COFFEES</text>
+  </g>
+
+  <!-- bottom bar -->
+  <rect x="0" y="388" width="860" height="12" rx="0" fill="#0d1117"/>
+  <rect x="0" y="388" width="860" height="1" fill="#21262d"/>
+  <text x="430" y="397" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#484f58">github.com/Kuldip1211  ·  kuldeepchudasama6999@gmail.com  ·  India 🇮🇳</text>
+</svg>
